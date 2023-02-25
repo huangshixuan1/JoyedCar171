@@ -16,31 +16,18 @@ function backbackback海道 () {
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 8) {
         gogo宜得利()
-        basic.pause(50)
-        basic.clearScreen()
     } else if (receivedNumber == 2) {
         backbackback海道()
-        basic.pause(50)
-        basic.clearScreen()
     } else if (receivedNumber == 4) {
         left旅遊啪啪造()
-        basic.pause(50)
-        basic.clearScreen()
     } else if (receivedNumber == 6) {
         rightnow過年要破產()
-        basic.pause(50)
-        basic.clearScreen()
     } else if (receivedNumber == 0) {
         stopstopyourdangerousthing()
-        basic.clearScreen()
     } else if (receivedNumber == 9) {
         開9右邊R()
-        basic.pause(50)
-        basic.clearScreen()
     } else if (receivedNumber == 7) {
         關7左邊L()
-        basic.pause(50)
-        basic.clearScreen()
     }
 })
 function 開9右邊R () {
@@ -115,4 +102,4 @@ function gogo宜得利 () {
     )
 }
 let pwm = 0
-radio.setGroup(172)
+radio.setGroup(171)
